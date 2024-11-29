@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # Compatibility & Sources
   s.ios.deployment_target       = '13.0'
   s.tvos.deployment_target      = '13.0'
-  s.source                      = { :git => "https://github.com/ArtSabintsev/Siren.git", :tag => s.version.to_s }
+  s.source                      = { :git => "https://github.com/09samit/Siren.git", :tag => s.version.to_s }
   s.source_files                = 'Sources/**/*.swift'
   s.resources                   = 'Sources/Siren.bundle'
   s.requires_arc                = true
